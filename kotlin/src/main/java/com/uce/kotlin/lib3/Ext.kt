@@ -1,0 +1,14 @@
+package com.uce.kotlin.lib3
+
+import android.app.Application
+
+/**
+ * Created by Victor on 2017/8/18. (ง •̀_•́)ง
+ */
+object Ext {
+    lateinit var ctx: Application
+
+    fun with(app: Application) {
+        this.ctx = app
+    }
+}
