@@ -1,0 +1,11 @@
+description = ''
+kotlin {
+    sourceSets {
+        jvmMain {
+            dependencies {
+                api group: 'io.dropwizard.metrics', name: 'metrics-core', version: '3.2.4'
+                api group: 'io.dropwizard.metrics', name: 'metrics-jvm', version: '3.2.4'
+            }
+        }
+    }
+}
